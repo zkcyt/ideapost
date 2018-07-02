@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Idea title:</strong>
+  <%= @idea.idea_title %>
+</p>
+
+<p>
+  <strong>Idea content:</strong>
+  <%= @idea.idea_content %>
+</p>
+
+<p>
+  <strong>User name:</strong>
+  <%= @idea.user_name %>
+</p>
+
+<%= link_to 'Edit', edit_idea_path(@idea) %> |
+<%= link_to 'Back', ideas_path %>
